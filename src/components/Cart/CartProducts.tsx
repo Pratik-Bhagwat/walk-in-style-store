@@ -35,7 +35,7 @@ function CartProducts() {
     };
 
     const response = await fetch(
-      `https://shoe-store-backend-payment.onrender.com/api/create-checkout-session`,
+      `https://payment-backend-tzko.onrender.com/api/create-checkout-session`,
       {
         method: "POST",
         headers: headers,
